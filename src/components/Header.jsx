@@ -16,7 +16,7 @@ const Header = () => {
                             <a key={i} href="/" className='font-normal text-base text-offBlack opacity-90 duration-300 ease-linear hover:bg-darkRed-gradient hover:text-transparent hover:bg-clip-text after:[] after:absolute after:bg-darkRed-gradient after:h-px after:w-0 after:right-0 after:bottom-0 after:rounded after:duration-300 after:ease-linear hover:after:w-full hover:after:right-auto hover:after:left-0 relative'>{i.text}</a>
                         ))}
                     </div>
-                    <CommonButton text="Start Building" className="border-darkRed text-darkRed" />
+                    <CommonButton text="Start Building" className="border-darkRed text-darkRed hover:text-white hover:border-transparent hover:shadow-darkRed" hoverClass="bg-darkRed-gradient" />
                 </nav>
             </div>
         </div>

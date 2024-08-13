@@ -1,10 +1,12 @@
 import './App.css';
-import Header from './components/Header';
+import Hero from './components/Hero';
+import Raphtory from './components/Raphtory';
 
 function App() {
   return (
     <div className="">
-      <Header />
+      <Hero />
+      <Raphtory />
     </div>
   );
 }
