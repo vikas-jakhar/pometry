@@ -1,10 +1,8 @@
 import React from 'react'
 
-const CommonButton = () => {
+const CommonButton = (props) => {
   return (
-    <div>
-      
-    </div>
+    <button className={`${props.className} py-2.5 border rounded px-8 font-semibold text-base`}>{props.text}</button>
   )
 }
 
