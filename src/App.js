@@ -1,10 +1,10 @@
 import './App.css';
-import CommonHeading from './common/CommonHeading';
+import Designed from './components/Designed';
 
 function App() {
   return (
     <div className="App">
-      <CommonHeading text="hlo" redText="hii" />
+     <Designed/>
     </div>
   );
 }
