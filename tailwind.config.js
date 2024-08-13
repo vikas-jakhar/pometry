@@ -22,6 +22,7 @@ module.exports = {
       },
       colors: {
         darkRed: "#9D2035",
+        offBlack: "#111111",
       },
       backgroundImage: {
         'darkRed-gradient': "linear-gradient(96.09deg, #E31930 0%, #F3576E 100%)"
