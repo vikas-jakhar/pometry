@@ -7,7 +7,7 @@ import CommonButton from '../common/CommonButton';
 const Model = () => {
     return (
         <div className='bg-offBlack py-10 lg:py-24 relative'>
-            <div className="container my-[73px] 2xl:relative">
+            <div className="container my-2 sm:my-[73px] 2xl:relative">
                 <div className="flex lg:flex-row flex-col-reverse items-center gap-11 justify-end">
                     <div className="w-full max-w-[564px] xl:absolute left-[7%] 2xl:-left-[4%]">
                         <img src={graph} alt="graph" />
