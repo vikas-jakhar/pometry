@@ -26,6 +26,7 @@ module.exports = {
         lightGray: "#1111111A",
       },
       backgroundImage: {
+        'hero': "url(./assets/image/webp/hero-bg.png)",
         'darkRed-gradient': "linear-gradient(96.09deg, #E31930 0%, #F3576E 100%)",
         'lightRed-gradient': "linear-gradient(96.09deg, rgba(227, 25, 48, 0.05) 0%, rgba(243, 87, 110, 0.05) 100%)",
       },

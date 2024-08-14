@@ -7,7 +7,7 @@ import Raphtory from './components/Raphtory';
 
 function App() {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <Hero />
       <Raphtory />
       <Model />

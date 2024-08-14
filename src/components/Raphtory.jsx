@@ -8,8 +8,8 @@ import manJumping from "../assets/image/webp/man-jumping.png";
 
 const Raphtory = () => {
     return (
-        <div className='z-[2] relative py-5 sm:py-10 md:py-24'>
-            <div className="container xl:pt-20 mb-7 sm:mt-9 relative-[1]">
+        <div className='z-[2] relative py-5 sm:py-10 md:py-24 overflow-hidden max-w-[1920px] mx-auto'>
+            <div className="container xl:pt-20 mb-7 sm:mt-9 relative z-[1]">
                 <div className="md:pb-24 lg:max-w-[609px] w-full flex flex-col items-center lg:items-start">
                     <CommonHeading className="text-center lg:text-left" text="Raphtory from " redText="10,000ft" />
                     <CommonParagraph className="mt-3 text-center lg:text-left max-w-[609px]" text="Data is at the heart of decision making today, and graphs are firmly embedded in the modern data stack. From fraud detection and drug discovery to market and supply modelling, graphs enable previously unachievable insights. However, while graph analytics platforms are increasingly used across the industry, most applications and solutions overlook a " />
@@ -19,19 +19,22 @@ const Raphtory = () => {
                 <div className="xl:pt-20 pt-10 mt-2.5">
                     <CommonHeading text="If you like " redText="what you see " blackText="you should" className="text-center" />
                     <div className="mt-12 pt-1 max-w-[796px] w-full mx-auto flex-wrap md:flex-nowrap justify-center flex flex-row gap-6">
-                        {CARD_DATA.map((e) => (
-                            <div key={e} className="max-w-[250px] px-2 flex flex-col items-center w-full border border-lightGray rounded-lg pt-6 min-h-[277px] duration-300 ease-linear hover:border-transparent hover:shadow-5xl">
-                                <a href={e.link} className="cursor-pointer w-[52px] h-[52px] grid place-items-center rounded-md bg-lightRed-gradient">
-                                    <Icons IconName={e.icon} />
+                        {CARD_DATA.map((items, index) => (
+                            <div key={index} className="max-w-[250px] px-2 flex flex-col items-center w-full border border-lightGray rounded-lg pt-6 min-h-[277px] duration-300 ease-linear hover:border-transparent hover:shadow-5xl">
+                                <a href={items.link} className="cursor-pointer w-[52px] h-[52px] grid place-items-center rounded-md bg-lightRed-gradient">
+                                    <Icons IconName={items.icon} />
                                 </a>
-                                <p className='mt-6 font-semibold text-2xl text-offBlack'>{e.heading}</p>
-                                <CommonParagraph className="mt-0.5 max-w-[202px] text-center" text={e.text} />
+                                <p className='mt-6 font-semibold text-2xl text-offBlack'>{items.heading}</p>
+                                <CommonParagraph className="mt-0.5 max-w-[202px] text-center" text={items.text} />
                             </div>
                         ))}
                     </div>
                 </div>
             </div>
             <img src={manJumping} alt="manJumping" className='max-w-[663px] w-full hidden sm:flex max-h-[511px] h-full right-0 xl:top-[152px] top-24 absolute opacity-50 xl:opacity-100' />
+            <span className='hidden md:flex w-[423px] h-[171px] bg-darkRed-gradient opacity-15 absolute top-[11%] -left-[7%] blur-3xl rounded-full'></span>
+            <span className='hidden md:flex w-[423px] h-[171px] bg-darkRed-gradient opacity-15 absolute top-[59%] left-[2%] blur-3xl rounded-full'></span>
+            <span className='hidden md:flex w-[423px] h-[171px] bg-darkRed-gradient opacity-15 absolute -right-[5%] bottom-[42px] blur-3xl rounded-full'></span>
         </div>
     )
 }
