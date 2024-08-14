@@ -23,13 +23,16 @@ module.exports = {
       colors: {
         darkRed: "#9D2035",
         offBlack: "#111111",
+        lightGray: "#1111111A",
       },
       backgroundImage: {
-        'darkRed-gradient': "linear-gradient(96.09deg, #E31930 0%, #F3576E 100%)"
+        'darkRed-gradient': "linear-gradient(96.09deg, #E31930 0%, #F3576E 100%)",
+        'lightRed-gradient': "linear-gradient(96.09deg, rgba(227, 25, 48, 0.05) 0%, rgba(243, 87, 110, 0.05) 100%)",
       },
       boxShadow: {
         '3xl': "0px 0px 5px",
-        '4xl':"0px 0px 45.57px 0px #0000001A;"
+        '4xl': "0px 0px 45.57px 0px #0000001A",
+        '5xl': "0px 0px 12px 0px #0000001F",
       }
     },
   },

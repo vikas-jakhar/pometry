@@ -8,11 +8,11 @@ import Icons from '../common/Icons';
 
 const Hero = () => {
     return (
-        <div>
+        <div className='xl:pb-24 lg:pb-16 pb-4 overflow-hidden relative'>
             <Header />
-            <div className="container pt-10">
-                <div className="mt-12 flex flex-row">
-                    <div className="w-1/2 flex justify-center items-center">
+            <div className="container pt-5 lg:pt-10">
+                <div className="mt-12 flex flex-col items-center lg:flex-row">
+                    <div className="lg:w-1/2 w-full flex justify-center items-center">
                         <div className="relative max-w-[338px] w-full">
                             <img src={circle} alt="circle" className='w-full' />
                             <a href="/" className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[143px] h-[143px] shadow-4xl rounded-full grid place-items-center hover:shadow-darkRed duration-300 ease-linear hover:shadow-3xl'>
@@ -25,10 +25,10 @@ const Hero = () => {
                             ))}
                         </div>
                     </div>
-                    <div className="w-1/2 flex justify-center items-center">
+                    <div className="lg:w-1/2 w-full flex justify-center mt-20 items-center">
                         <div className="max-w-[509px] w-full relative">
                             <h2 className='font-bold text-custom-3xl text-offBlack capitalize'>raphtory</h2>
-                            <Icons IconName="ArrowIcon" className="absolute right-[104px] -top-1.5" />
+                            <Icons IconName="arrowIcon" className="absolute right-[104px] -top-1.5" />
                             <CommonParagraph className="text-black" text="Raphtory is an open-source platform for distributed real-time temporal graph analytics, allowing you to load and process large dynamic datasets across time." />
                         </div>
                     </div>
