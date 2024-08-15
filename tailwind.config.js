@@ -24,6 +24,9 @@ module.exports = {
         darkRed: "#9D2035",
         offBlack: "#111111",
         lightGray: "#1111111A",
+        offGray: "#8E8E8E",
+        offWhite: "#0000001A",
+        lightBlue: "#4BB4F5",
       },
       backgroundImage: {
         'hero': "url(./assets/image/webp/hero-bg.png)",
@@ -34,6 +37,7 @@ module.exports = {
         '3xl': "0px 0px 5px",
         '4xl': "0px 0px 45.57px 0px #0000001A",
         '5xl': "0px 0px 12px 0px #0000001F",
+        '6xl': "0px 0px 24px 0px #0000001F",
       }
     },
   },

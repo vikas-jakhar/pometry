@@ -4,7 +4,10 @@ import Analysis from './components/Analysis';
 import Contribute from './components/Contribute';
 import Hero from './components/Hero';
 import Model from './components/Model';
+import Algorithm from './components/Algorithm';
+import LatestNews from './components/LatestNews';
 import Raphtory from './components/Raphtory';
+import MemoryGraph from './components/MemoryGraph';
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <Model />
       <Analysis />
       <Contribute />
+      <Algorithm />
+      <MemoryGraph />
+      <LatestNews />
       <PreLoader />
     </div>
   );
