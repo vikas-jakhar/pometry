@@ -16,17 +16,26 @@ module.exports = {
         }
       },
       fontSize: {
+        'custom-sm': "22px",
         'custom-xl': "32px",
         'custom-2xl': "38px",
-        'custom-2xl': "64px",
+        'custom-3xl': "64px",
       },
       colors: {
         darkRed: "#9D2035",
         offBlack: "#111111",
+        offWhite: "#FFFFFF33",
+        lighterWhite:"#1111111A",
+        peachOrange :"#FBBF8B",
       },
       backgroundImage: {
         'darkRed-gradient': "linear-gradient(96.09deg, #E31930 0%, #F3576E 100%)"
-      }
+      },
+      boxShadow: {
+        '3xl': "0px 0px 5px",
+        '4xl':"0px 0px 45.57px 0px #0000001A;"
+      },
+     
     },
   },
   plugins: [],
