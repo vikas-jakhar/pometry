@@ -1,4 +1,5 @@
 import './App.css';
+import PreLoader from './common/PreLoader';
 import Analysis from './components/Analysis';
 import Contribute from './components/Contribute';
 import Hero from './components/Hero';
@@ -13,6 +14,7 @@ function App() {
       <Model />
       <Analysis />
       <Contribute />
+      <PreLoader />
     </div>
   );
 }
