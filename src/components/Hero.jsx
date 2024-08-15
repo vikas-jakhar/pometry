@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../common/Header';
-import circle from "../assets/image/webp/circle.png";
-import timer from "../assets/image/webp/timer.png";
+import circle from "../assets/image/webp/circle.webp";
+import timer from "../assets/image/webp/timer.webp";
 import { SOCIAL_ICONS } from '../common/Helper';
 import CommonParagraph from '../common/CommonParagraph';
 import Icons from '../common/Icons';
@@ -11,7 +11,7 @@ const Hero = () => {
         <div className='xl:pb-24 lg:pb-16 pb-4 relative bg-hero bg-cover bg-no-repeat'>
             <Header />
             <div className="container pt-5 lg:pt-10">
-                <div className="mt-12 flex flex-col items-center lg:flex-row">
+                <div className="mt-12 flex flex-col-reverse items-center lg:flex-row">
                     <div className="lg:w-1/2 w-full flex justify-center items-center">
                         <div className="relative max-w-[338px] w-full mx-8">
                             <img src={circle} alt="circle" className='w-full' />
@@ -25,7 +25,7 @@ const Hero = () => {
                             ))}
                         </div>
                     </div>
-                    <div className="lg:w-1/2 w-full flex justify-center mt-20 items-center">
+                    <div className="lg:w-1/2 w-full mb-20 lg:mb-0 flex justify-center items-center">
                         <div className="max-w-[509px] w-full relative">
                             <h2 className='font-bold text-center lg:text-left md:text-custom-3xl sm:text-5xl text-4xl text-offBlack capitalize'>raphtory</h2>
                             <Icons IconName="arrowIcon" className="absolute lg:right-[104px] -top-9 right-9 lg:-top-1.5 hidden sm:flex" />

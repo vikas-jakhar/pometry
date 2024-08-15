@@ -8,6 +8,7 @@ import Algorithm from './components/Algorithm';
 import LatestNews from './components/LatestNews';
 import Raphtory from './components/Raphtory';
 import MemoryGraph from './components/MemoryGraph';
+import ScrollToTop from './common/ScrollToTop';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Algorithm />
       <MemoryGraph />
       <LatestNews />
+      <ScrollToTop />
       <PreLoader />
     </div>
   );

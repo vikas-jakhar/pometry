@@ -1,8 +1,8 @@
 import React from 'react'
 import CommonHeading from '../common/CommonHeading';
-import bountyBoard from "../assets/image/webp/bounty-board.png";
+import bountyBoard from "../assets/image/webp/bounty-board.webp";
 import CommonParagraph from '../common/CommonParagraph';
-import githubRepo from "../assets/image/webp/github-repo.png";
+import githubRepo from "../assets/image/webp/github-repo.webp";
 import CommonButton from '../common/CommonButton';
 
 const Contribute = () => {

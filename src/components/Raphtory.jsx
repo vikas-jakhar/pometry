@@ -4,7 +4,7 @@ import CommonParagraph from '../common/CommonParagraph'
 import CommonButton from '../common/CommonButton'
 import Icons from '../common/Icons'
 import { CARD_DATA } from '../common/Helper'
-import manJumping from "../assets/image/webp/man-jumping.png";
+import manJumping from "../assets/image/webp/man-jumping.webp";
 
 const Raphtory = () => {
     return (

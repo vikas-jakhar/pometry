@@ -1,5 +1,5 @@
 import React from 'react'
-import analysis from "../assets/image/webp/analysis.png";
+import analysis from "../assets/image/webp/analysis.webp";
 import CommonHeading from '../common/CommonHeading';
 import CommonParagraph from '../common/CommonParagraph';
 import CommonButton from '../common/CommonButton';

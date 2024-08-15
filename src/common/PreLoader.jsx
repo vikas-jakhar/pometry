@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import pometryLogo from "../assets/image/webp/pometry-logo.png";
+import pometryLogo from "../assets/image/webp/pometry-logo.webp";
 const PreLoader = () => {
     const [visible, setVisible] = useState(true);
     useEffect(() => {

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import pometryLogo from "../assets/image/webp/pometry-logo.png";
+import pometryLogo from "../assets/image/webp/pometry-logo.webp";
 import { NAV_ITEMS_DATA } from './Helper';
 import CommonButton from './CommonButton';
 

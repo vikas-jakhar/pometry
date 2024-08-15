@@ -1,5 +1,5 @@
 import React from 'react'
-import graph from "../assets/image/webp/graph.png";
+import graph from "../assets/image/webp/graph.webp";
 import CommonHeading from '../common/CommonHeading';
 import CommonParagraph from '../common/CommonParagraph';
 import CommonButton from '../common/CommonButton';

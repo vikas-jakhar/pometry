@@ -5,7 +5,7 @@ import CommonHeading from '../common/CommonHeading'
 import CommonParagraph from '../common/CommonParagraph'
 const MemoryGraph = () => {
     return (
-        <div className='bg-black py-14 md:py-24 lg:py-28 xl:pt-[155px] xl:pb-[136px] relative'>
+        <div className='bg-black py-14 md:py-24 lg:py-28 xl:pt-[155px] xl:pb-[136px] relative overflow-hidden'>
             <div className="container relative z-20">
                 <div className='flex flex-col items-center'>
                     <CommonHeading className="text-white" blackText=" in Raphtory" redText="Analysis" />
