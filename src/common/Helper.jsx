@@ -27,7 +27,7 @@ export const SOCIAL_ICONS = [
     { icon: pometryIcon, link: "https://www.pometry.com/", position: "top-1/2 left-0 -translate-x-1/2 -translate-y-1/2" },
 ];
 export const CARD_DATA = [
-    { icon: "redIcon", link: "/", heading: "Instance running", text: "Setup, get your first Raphtory instance running and submit your first temporal graph algorithms." },
+    { icon: "redIcon", link: "https://gsap.com/docs/v3/GSAP/CorePlugins/CSS/#quick-reference", heading: "Instance running", text: "Setup, get your first Raphtory instance running and submit your first temporal graph algorithms." },
     { icon: "slack", link: "https://slack.com/intl/en-in", heading: "Join on slack", text: "Feel free to join the #raphtory-development and #askaway channels to discuss current issues or ask any questions." },
     { icon: "redTwitter", link: "https://x.com/i/flow/login", heading: "Give Feedback", text: "Come and say hello to us on Twitter Any and all feedback is welcomed!" },
 ];

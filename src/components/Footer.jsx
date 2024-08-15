@@ -27,9 +27,9 @@ const Footer = () => {
                     <div className='lg:max-w-[710px] w-full flex flex-row flex-wrap sm:justify-between md:gap-[44px] lg:mb-[98px] md:mb-20 sm:mb-16 mb-14'>
                         {FOOTER_DATA.map((item, idx) => (
                             <div key={idx} className={`${idx === 4 || idx === 5 ? "hidden sm:flex" : ""} ${idx === 1 || idx === 2 ? "md:hidden flex" : ""} flex flex-col max-md:w-5/12 max-sm:w-6/12 max-sm:pr-4 max-md:mb-5`}>
-                                <h5 className='font-semibold text-base text-white leading-6'>
+                                <p className='font-semibold text-base text-white leading-6'>
                                     {item.heading}
-                                </h5>
+                                </p>
                                 <div className="flex flex-col mt-4 gap-2">
                                     {item.items.map((e, i) => (
                                         <a key={i} href='/' className='font-normal w-fit text-base text-white opacity-70 leading-6 hover:opacity-100 duration-300'>{e.text}</a>

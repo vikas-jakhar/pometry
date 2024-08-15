@@ -16,9 +16,9 @@ const Designed = () => {
                 </div>
                 <div data-aos="fade-up-left" className='max-w-[522px] w-full max-lg:items-center flex flex-col md:mt-10 sm:mt-6 mt-4'>
                     <div className='flex flex-col'>
-                        <h4 className='font-semibold text-custom-xl text-black leading-[41px]'>
+                        <p className='font-semibold text-custom-xl text-black leading-[41px]'>
                             Simple Ingestion
-                        </h4>
+                        </p>
                         <CommonParagraph className='max-w-[522px] text-black mt-3' text='Built with speed in mind, scaling to millions rows per second. Ingestion turns raw data directly into a temporal graph, complete with all properties.' />
                         <div className='flex gap-3 mt-7'>
                             <Icons IconName='tickIcon' />
