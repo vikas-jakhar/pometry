@@ -5,16 +5,16 @@ import designedImg from '../assets/image/webp/designed-img.webp'
 const Designed = () => {
     return (
         <div className='container lg:pt-[152px] md:pt-28 sm:pt-20 pt-14 lg:pb-[75px] md:pb-16 sm:pb-14 pb-12'>
-            <div className='flex flex-col items-center relative'>
+            <div data-aos="zoom-in" className='flex flex-col items-center relative'>
                 <CommonHeading className='capitalize text-center' text='designed to go anywhere' />
                 <CommonParagraph className='text-black max-w-[568px] pt-3 text-center' text='Our platform is designed to make ingestion and analysis simple, with no need to move or transform data. We make ingesting and analysing your data sets easy!' />
                 <Icons className='absolute xl:right-[12%] lg:flex hidden right-[8%] top-[-6%]' IconName='arrowIcon' />
             </div>
             <div className='flex lg:flex-row flex-col items-center lg:justify-between relative'>
-                <div className='max-w-[467px] w-full flex justify-center'>
+                <div data-aos="fade-up-right" className='max-w-[467px] w-full flex justify-center'>
                     <img className='w-full ' src={designedImg} alt="#" />
                 </div>
-                <div className='max-w-[522px] w-full max-lg:items-center flex flex-col md:mt-10 sm:mt-6 mt-4'>
+                <div data-aos="fade-up-left" className='max-w-[522px] w-full max-lg:items-center flex flex-col md:mt-10 sm:mt-6 mt-4'>
                     <div className='flex flex-col'>
                         <h4 className='font-semibold text-custom-xl text-black leading-[41px]'>
                             Simple Ingestion
