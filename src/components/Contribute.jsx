@@ -19,7 +19,7 @@ const Contribute = () => {
                         <CommonParagraph className="mt-3 text-white text-center md:text-left" text="Checkout our Bounty Board where we keep track of all the functionality and algorithms we want to implement. There are many labeled as low hanging fruit just waiting for a newbie to tackle. For bugs and miscellaneous suggestions, you can checkout our Git Issues." />
                     </div>
                 </div>
-                <div className="sm:mt-20 mt-8 lg:pt-3 flex md:flex-row flex-col-reverse items-center gap-6 md:gap-10 lg:gap-[109px] justify-center">
+                <div className="sm:mt-20 mt-8 lg:pt-5 flex md:flex-row flex-col-reverse items-center gap-6 md:gap-10 lg:gap-[109px] justify-center">
                     <div className="max-w-[538px] w-full flex flex-col items-center md:items-start">
                         <p className='text-white text-custom-xl font-semibold'>Github Repo</p>
                         <CommonParagraph className="text-white mt-3 text-center md:text-left" text="Once you know what you want to work on, head over to the Github repo   and give us a clone. The project is straight forward to get running, but everyone on slack is always there to give a hand." />
