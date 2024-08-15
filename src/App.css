@@ -35,7 +35,7 @@
   height: 10px !important;
   margin: 0px 3px !important;
   transition: all 300ms linear !important;
-  position: relative; /* To make sure the pseudo-element is positioned correctly */
+  position: relative; 
 }
 
 .news-slider .slick-dots li::before {
