@@ -2,7 +2,6 @@ import gitHub from "../assets/image/webp/github.webp";
 import slack from "../assets/image/webp/slack.webp";
 import twitter from "../assets/image/webp/twitter.webp";
 import pometryIcon from "../assets/image/webp/pometry.webp";
-import pometry from "../assets/image/webp/pometry.webp";
 import richardProfile from '../assets/image/svg/richard-profile.svg'
 import messageIcon from '../assets/image/svg/message.svg'
 import heartIcon from '../assets/image/svg/heart.svg'
@@ -15,24 +14,17 @@ export const NAV_ITEMS_DATA = [
     { text: "Our Team", url: "/", },
     { text: "Product Overview", url: "/", },
 ];
-
 export const SOCIAL_ICONS = [
     { icon: gitHub, link: "", position: "top-0 left-1/2 -translate-x-1/2 -translate-y-1/2" },
     { icon: slack, link: "", position: "top-1/2 right-0 translate-x-1/2 -translate-y-1/2" },
     { icon: twitter, link: "", position: "bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2" },
     { icon: pometryIcon, link: "", position: "top-1/2 left-0 -translate-x-1/2 -translate-y-1/2" },
 ];
-
 export const CARD_DATA = [
     { icon: "redIcon", link: "", heading: "Instance running", text: "Setup, get your first Raphtory instance running and submit your first temporal graph algorithms." },
     { icon: "slack", link: "", heading: "Join on slack", text: "Feel free to join the #raphtory-development and #askaway channels to discuss current issues or ask any questions." },
     { icon: "redTwitter", link: "", heading: "Give Feedback", text: "Come and say hello to us on Twitter Any and all feedback is welcomed!" },
-]
-// { icon: gitHub, link: "", className: "top-0 left-1/2 -translate-x-1/2 -translate-y-1/2" },
-// { icon: slack, link: "", className: "top-1/2 right-0 translate-x-1/2 -translate-y-1/2" },
-// { icon: twitter, link: "", className: "bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2" },
-// { icon: pometry, link: "", className: "top-1/2 left-0 -translate-x-1/2 -translate-y-1/2" },
-// ];
+];
 export const LATEST_NEWS_DATA = [
     {
         profile: richardProfile,
@@ -45,7 +37,7 @@ export const LATEST_NEWS_DATA = [
         heart: heartIcon,
         info: infoIcon,
         number: 17.,
-        link: <a className='text-lightBlue' href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
+        link: <a className='text-lightBlue' rel="noreferrer" href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
     },
     {
         profile: naomiProfile,
@@ -69,7 +61,7 @@ export const LATEST_NEWS_DATA = [
         heart: heartIcon,
         info: infoIcon,
         number: 19,
-        link: <a className='text-lightBlue' href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
+        link: <a className='text-lightBlue' rel="noreferrer" href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
     },
     {
         profile: naomiProfile,
@@ -93,7 +85,6 @@ export const LATEST_NEWS_DATA = [
         heart: heartIcon,
         info: infoIcon,
         number: 19,
-        link: <a className='text-lightBlue' href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
+        link: <a className='text-lightBlue' rel="noreferrer" href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
     },
-
 ];
