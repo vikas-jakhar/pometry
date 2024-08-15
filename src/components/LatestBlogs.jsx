@@ -54,7 +54,7 @@ const LatestBlogs = () => {
         <CommonHeading className='text-center' text='Latest blogs' />
         <Icons className='absolute right-[28%] top-[-35%] lg:flex hidden' IconName='arrowIcon' />
       </div>
-      <div className='news-slider mt-[68px]'>
+      <div className='news-slider mt-[68px]' data-aos="zoom-in">
         <Slider {...settings2}>
           {DATA_ANALYTICS.map((index) => (
             <div key={index} className='bg-white max-w-[366px] w-full rounded-xl p-[15px] border border-lighterWhite'>

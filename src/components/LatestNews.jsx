@@ -54,8 +54,10 @@ const LatestNews = () => {
         <div className='pt-14 sm:pt-20 md:pt-24 lg:pt-32 xl:pt-[152px] pb-11 relative'>
             <div className='container relative z-20'>
                 <div className='flex flex-col'>
-                    <CommonHeading className="text-black text-center" text="Latest News About" redText=" Raphtory" />
-                    <div className='news-slider pt-[32px]'>
+                    <div data-aos="zoom-in">
+                        <CommonHeading className="text-black text-center" text="Latest News About" redText=" Raphtory" />
+                    </div>
+                    <div className='news-slider pt-[32px]' data-aos="zoom-in">
                         <Slider {...settings_do}>
                             {LATEST_NEWS_DATA.map((item, index) => (
                                 <div key={index} className='max-w-[372px] rounded-xl w-full min-h-[230px] sm:min-h-[276px] md:min-h-[230px] border border-offWhite duration-300 ease-linear hover:border-transparent hover:shadow-6xl p-[15px] flex bg-white flex-col'>
