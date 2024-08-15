@@ -1,12 +1,14 @@
 import './App.css';
-import Hero from './components/Hero';
+import Algorithm from './components/Algorithm';
+import LatestNews from './components/LatestNews';
 import Raphtory from './components/Raphtory';
 
 function App() {
   return (
-    <div className="">
-      <Hero />
+    <div className="overflow-hidden">
+      <Algorithm />
       <Raphtory />
+      <LatestNews />
     </div>
   );
 }
