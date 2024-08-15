@@ -12,6 +12,12 @@ import ScrollToTop from './common/ScrollToTop';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
+import Designed from "./components/Designed";
+import TimeData from "./components/TimeData";
+import NativeAnalytics from "./components/NativeAnalytics";
+import LatestBlogs from "./components/LatestBlogs";
+import RunRaphtory from "./components/RunRaphtory";
+import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -27,6 +33,12 @@ function App() {
       <Algorithm />
       <MemoryGraph />
       <LatestNews />
+      <Designed />
+      <NativeAnalytics />
+      <TimeData />
+      <LatestBlogs />
+      <RunRaphtory />
+      <Footer />
       <ScrollToTop />
       <PreLoader />
     </div>
