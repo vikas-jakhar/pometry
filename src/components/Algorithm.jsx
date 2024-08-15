@@ -15,7 +15,7 @@ const Algorithm = () => {
                             <Icons className="absolute max-sm:w-[60px] -top-12 right-0 sm:-right-8 sm:-top-9" IconName="AlgorithmIcon" />
                         </div>
                         <CommonParagraph className="max-w-[700px] max-lg:text-center lg:max-w-[533px] pt-3 leading-6" text="To add some structure to these individual vertex operations the Algorithm Structure layer defines the stages to be completed via Step and Iterate functions. This specifies the flow of an algorithm from setup to final convergence, upon which the user may Select the elements of interest from each vertex to be written out." />
-                        <CommonButton text="Read more" className="mt-[42px] max-lg:mx-auto max-w-[148px] hover:text-white text-nowrap border-darkRed text-darkRed hover:border-white" hoverClass="bg-darkRed-gradient" />
+                        <CommonButton text="Read more" className="mt-[42px] hover:shadow-darkRed max-lg:mx-auto max-w-[148px] hover:text-white text-nowrap border-darkRed text-darkRed hover:border-white" hoverClass="bg-darkRed-gradient" />
                     </div>
                 </div>
             </div>
