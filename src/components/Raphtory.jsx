@@ -1,32 +1,40 @@
-import raphtoryTimer from '../assets/image/webp/raphtory-timer.webp'
-import raphtory from '../assets/image/webp/raphtory.webp'
-import CommonButton from '../common/CommonButton'
+import React from 'react'
 import CommonHeading from '../common/CommonHeading'
 import CommonParagraph from '../common/CommonParagraph'
+import CommonButton from '../common/CommonButton'
+import Icons from '../common/Icons'
+import { CARD_DATA } from '../common/Helper'
+import manJumping from "../assets/image/webp/man-jumping.png";
+
 const Raphtory = () => {
     return (
-        <div className='bg-black py-14 md:py-24 lg:py-28 xl:pt-[155px] xl:pb-[136px] relative'>
-            <div className="container relative z-20">
-                <div className='flex flex-col items-center'>
-                    <CommonHeading className="text-white" blackText=" in Raphtory" redText="Analysis" />
-                    <CommonParagraph className="text-white pt-3 text-center max-w-[1015px]" text="As a key feature of Raphtory’s design goals was to ensure it could scale to the largest of datasets, algorithms had to be fully distributable. To enable this, we adopted the think like a vertex model, where computation is completed in synchronised supersteps. Within these steps all vertices execute independently, communicating via messages, and can therefore be spread across any number of machines." redText="Read more..." />
-                    <img className='max-w-[1012px] w-full mt-[52px] pointer- events-none' src={raphtory} alt="raphtory" />
+        <div className='z-[2] relative py-5 sm:py-10 md:py-24 overflow-hidden max-w-[1920px] mx-auto'>
+            <div className="container xl:pt-20 mb-7 sm:mt-9 relative z-[1]">
+                <div className="md:pb-24 lg:max-w-[609px] w-full flex flex-col items-center lg:items-start">
+                    <CommonHeading className="text-center lg:text-left" text="Raphtory from " redText="10,000ft" />
+                    <CommonParagraph className="mt-3 text-center lg:text-left max-w-[609px]" text="Data is at the heart of decision making today, and graphs are firmly embedded in the modern data stack. From fraud detection and drug discovery to market and supply modelling, graphs enable previously unachievable insights. However, while graph analytics platforms are increasingly used across the industry, most applications and solutions overlook a " />
+                    <CommonParagraph className="mt-2 text-center lg:text-left max-w-[609px]" text="Current solutions focus solely on the latest version of the data - missing out on how it has arrived at the state it is in today." />
+                    <CommonButton text="Read more" className="border-darkRed text-darkRed mt-7 sm:mt-[42px] hover:text-white hover:border-transparent hover:shadow-darkRed" hoverClass="bg-darkRed-gradient" />
                 </div>
-                <div className='flex max-lg:flex-wrap justify-between pt-12 sm:pt-16 md:pt-20 lg:pt-24 xl:pt-[124px]'>
-                    <div className='lg:max-w-[330px] w-full flex justify-center lg:justify-end lg:pt-[46px] relative z-20'>
-                        <img className='max-w-[150px] md:max-w-[185px] lg:max-w-[205px] lg:h-[292px] w-full pointer-events-none' src={raphtoryTimer} alt="timer" />
-                        <div className='max-w-[423px] w-full min-h-[50px] absolute inset-0 bg-darkRed-gradient -z-10 left-[15%] lg:left-[30%] lg:top-[20%] blur-[120px] opacity-40 pointer-events-none'></div>
+                <div className="xl:pt-20 pt-10 mt-2.5">
+                    <CommonHeading text="If you like " redText="what you see " blackText="you should" className="text-center" />
+                    <div className="mt-12 pt-1 max-w-[796px] w-full mx-auto flex-wrap md:flex-nowrap justify-center flex flex-row gap-6">
+                        {CARD_DATA.map((items, index) => (
+                            <div key={index} className="max-w-[250px] px-2 flex flex-col items-center w-full border border-lightGray rounded-lg pt-6 min-h-[277px] duration-300 ease-linear hover:border-transparent hover:shadow-5xl">
+                                <a href={items.link} className="cursor-pointer w-[52px] h-[52px] grid place-items-center rounded-md bg-lightRed-gradient">
+                                    <Icons IconName={items.icon} />
+                                </a>
+                                <p className='mt-6 font-semibold text-2xl text-offBlack'>{items.heading}</p>
+                                <CommonParagraph className="mt-0.5 max-w-[202px] text-center" text={items.text} />
+                            </div>
+                        ))}
                     </div>
-                    <div className='flex max-md:pt-10 md:pt-12 lg:pt-0 max-lg:items-center max-lg:w-full flex-col'>
-                        <CommonHeading className="text-white max-lg:text-center max-sm:max-w-[360px] sm:max-w-[400px] md:max-w-[486px]" text="Raphtory Algorithms " redText="Bounty Board" />
-                        <CommonParagraph className="max-w-[634px] max-lg:text-center text-white pt-3" breakTextClass="block" text="On this page are the algorithms supported and planned to be supported within Raphtory. We will keep this updated as new algorithms are implemented and new ideas are suggested by the community." breakText="For anyone interested in getting involved in Raphtory the low hanging fruit () algorithms will be a great entry point for your first contribution. Once you have merged your algorithm feel free to come back here and tick it off with your github account linked next to it." />
-                        <CommonButton text="Read more" hoverClass="bg-black" className="mt-[42px] text-nowrap text-white max-w-[119px] px-[17.5px] bg-darkRed-gradient hover:border-white border-transparent hover:bg-white" /></div>
                 </div>
             </div>
-            <div className='max-w-[423px] w-full min-h-[50px] absolute bg-darkRed-gradient z-10 top-0 -left-[5%] blur-[130px] pointer-events-none'></div>
-            <div className='max-w-[423px] w-full min-h-[50px] absolute bg-darkRed-gradient z-10 top-[4%] -right-[5%] blur-[130px] pointer-events-none'></div>
-            <div className='max-w-[423px] w-full min-h-[50px] absolute bg-darkRed-gradient z-10 bottom-[21%] lg:bottom-[25%] -right-[5%] blur-[130px] pointer-events-none'></div>
-            <div className='max-w-[423px] w-full min-h-[50px] absolute bg-darkRed-gradient z-10 bottom-0 -right-[5%] blur-[130px] pointer-events-none'></div>
+            <img src={manJumping} alt="manJumping" className='max-w-[663px] w-full hidden sm:flex max-h-[511px] h-full right-0 xl:top-[152px] top-24 absolute opacity-50 xl:opacity-100' />
+            <span className='hidden md:flex w-[423px] h-[171px] bg-darkRed-gradient opacity-15 absolute top-[11%] -left-[7%] blur-3xl rounded-full'></span>
+            <span className='hidden md:flex w-[423px] h-[171px] bg-darkRed-gradient opacity-15 absolute top-[59%] left-[2%] blur-3xl rounded-full'></span>
+            <span className='hidden md:flex w-[423px] h-[171px] bg-darkRed-gradient opacity-15 absolute -right-[5%] bottom-[42px] blur-3xl rounded-full'></span>
         </div>
     )
 }

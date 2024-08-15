@@ -4,6 +4,18 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+.cross span:nth-child(1) {
+  transform: rotate(45deg) translateY(14px) translateX(4px);
+}
+
+.cross span:nth-child(2) {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.cross span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-10.5px) translateX(0px);
+}
 .news-slider .slick-track .slick-slide {
   margin: 0 6px;
 }

@@ -8,7 +8,6 @@ const LatestNews = () => {
     var settings_do = {
         dots: true,
         infinite: true,
-        speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
@@ -75,7 +74,7 @@ const LatestNews = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <a className='inline-flex' href="https://x.com/?lang=en" target='_blank'><img width="32px" height="30.49px" src={newsTwitter} alt="twitter-logo" /></a>
+                                                <a className='inline-flex' href="https://x.com/?lang=en" rel="noreferrer" target='_blank'><img width="32px" height="30.49px" src={newsTwitter} alt="twitter-logo" /></a>
                                             </div>
                                             <p className='text-base font-normal leading-6 text-offBlack opacity-80 pt-[13px]'> {item.paragrapgh} {item.link} {item.paraSecond}</p>
                                         </div>
