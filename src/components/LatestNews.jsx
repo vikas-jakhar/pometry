@@ -64,7 +64,7 @@ const LatestNews = () => {
                                     <div className='flex flex-col justify-between h-full'>
                                         <div>
                                             <div className='flex justify-between'>
-                                                <div className='flex flex-col'>
+                                                <div className='flex flex-col' aria-hidden="true">
                                                     <h5 className='font-semibold text-base leading-6 text-offBlack'>Tweets from @raphtory</h5>
                                                     <div className='flex items-center gap-[6px] pt-[5px]'>
                                                         <img width="42px" height="42px" src={item.profile} alt="richard" />
@@ -76,7 +76,7 @@ const LatestNews = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <a className='inline-flex' href="https://x.com/?lang=en" rel="noreferrer" target='_blank'><img width="32px" height="30.49px" src={newsTwitter} alt="twitter-logo" /></a>
+                                                <a className='inline-flex' aria-hidden="true" href="https://x.com/?lang=en" rel="noreferrer" target='_blank'><img width="32px" height="30.49px" src={newsTwitter} alt="twitter-logo" /></a>
                                             </div>
                                             <p className='text-base font-normal leading-6 text-offBlack opacity-80 pt-[13px]'> {item.paragrapgh} {item.link} {item.paraSecond}</p>
                                         </div>

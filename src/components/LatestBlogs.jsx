@@ -58,7 +58,7 @@ const LatestBlogs = () => {
         <Slider {...settings2}>
           {DATA_ANALYTICS.map((index) => (
             <div key={index} className='bg-white max-w-[366px] w-full rounded-xl p-[15px] border border-lighterWhite'>
-              <img src={index.img} alt="#" />
+              <img src={index.img} alt="#" className='max-w-[334px] w-full' />
               <p className='max-w-[334px] w-full pt-[10px] xl:text-2xl md:text-custom-sm text-xl font-semibold text-black leading-[33px]'>
                 {index.heading}
               </p>

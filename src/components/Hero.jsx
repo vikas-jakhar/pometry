@@ -19,7 +19,7 @@ const Hero = () => {
                                 <img src={timer} alt="timer" className='sm:w-[64px] w-9' />
                             </a>
                             {SOCIAL_ICONS.map((items, index) => (
-                                <a key={index} href={items.link} aria-label={`${items.icon} icon`} target='_blank' rel="noreferrer" className={`${items.position} grid place-items-center bg-white sm:w-[74px] w-16 h-16 sm:h-[74px] shadow-4xl rounded-full hover:shadow-darkRed duration-300 ease-linear hover:shadow-3xl absolute`}>
+                                <a key={index} href={items.link} aria-label='icon' target='_blank' rel="noreferrer" className={`${items.position} grid place-items-center bg-white sm:w-[74px] w-16 h-16 sm:h-[74px] shadow-4xl rounded-full hover:shadow-darkRed duration-300 ease-linear hover:shadow-3xl absolute`}>
                                     <img src={items.icon} alt={items.icon} className='sm:w-[41px] w-8' />
                                 </a>
                             ))}

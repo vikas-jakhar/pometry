@@ -43,7 +43,7 @@ export const LATEST_NEWS_DATA = [
         heart: heartIcon,
         info: infoIcon,
         number: 17.,
-        link: <a className='text-lightBlue' rel="noreferrer" href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
+        link: <a className='text-lightBlue' aria-hidden="true" rel="noreferrer" href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
     },
     {
         profile: naomiProfile,
@@ -67,7 +67,7 @@ export const LATEST_NEWS_DATA = [
         heart: heartIcon,
         info: infoIcon,
         number: 19,
-        link: <a className='text-lightBlue' rel="noreferrer" href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
+        link: <a className='text-lightBlue' aria-hidden="true" rel="noreferrer" href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
     },
     {
         profile: naomiProfile,
@@ -91,7 +91,7 @@ export const LATEST_NEWS_DATA = [
         heart: heartIcon,
         info: infoIcon,
         number: 19,
-        link: <a className='text-lightBlue' rel="noreferrer" href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
+        link: <a className='text-lightBlue' aria-hidden="true" rel="noreferrer" href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
     },
 ];
 export const DATA_ANALYTICS = [
