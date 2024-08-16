@@ -12,13 +12,13 @@ const Footer = () => {
                     <div className='max-w-[236px] w-full lg:mb-0 md:mb-10 sm:pb-8 pb-7'>
                         <img src={logoFooter} alt="#" />
                         <div className='flex gap-3 mt-4'>
-                            <a href="https://slack.com/intl/en-in" target='blank' className='hover:scale-110 duration-300'>
+                            <a href="https://slack.com/intl/en-in" aria-label="slack" target='blank' className='hover:scale-110 duration-300'>
                                 <img src={slack} alt="#" />
                             </a>
-                            <a href="https://in.linkedin.com/" target='blank' className='hover:scale-110 duration-300'>
+                            <a href="https://in.linkedin.com/" aria-label="linkedin" target='blank' className='hover:scale-110 duration-300'>
                                 <img src={linkedin} alt="#" />
                             </a>
-                            <a href="https://x.com/?lang=en" target='blank' className='hover:scale-110 duration-300'>
+                            <a href="https://x.com/?lang=en" aria-label="twitter" target='blank' className='hover:scale-110 duration-300'>
                                 <img src={twitter} alt="#" />
                             </a>
                         </div>

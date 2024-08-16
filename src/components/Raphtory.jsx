@@ -21,7 +21,7 @@ const Raphtory = () => {
                         {CARD_DATA.map((items, index) => (
                             <div data-aos="flip-down" key={index} className="relative max-w-[250px] duration-150 ease-linear min-h-[277px] hover:bg-darkRed-gradient rounded-lg pb-0.5 hover:shadow-5xl">
                                 <div className="relative z-[1] bg-white px-2 flex flex-col items-center w-full border border-lightGray rounded-lg pt-6 min-h-[277px] h-full duration-300 ease-linear hover:border-white">
-                                    <a href={items.link} rel="noreferrer" target='_blank' className="cursor-pointer w-[52px] h-[52px] grid place-items-center rounded-md bg-lightRed-gradient">
+                                    <a href={items.link} aria-label={`${items.icon} icon`} rel="noreferrer" target='_blank' className="cursor-pointer w-[52px] h-[52px] grid place-items-center rounded-md bg-lightRed-gradient">
                                         <Icons IconName={items.icon} />
                                     </a>
                                     <p className='mt-6 font-semibold text-2xl text-offBlack'>{items.heading}</p>
