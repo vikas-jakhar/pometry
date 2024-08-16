@@ -3,13 +3,14 @@ import raphtory from '../assets/image/webp/raphtory.webp'
 import CommonButton from '../common/CommonButton'
 import CommonHeading from '../common/CommonHeading'
 import CommonParagraph from '../common/CommonParagraph'
+
 const MemoryGraph = () => {
     return (
         <div className='bg-black py-14 md:py-24 lg:py-28 xl:pt-[155px] xl:pb-[136px] relative overflow-hidden' id='community'>
             <div className="container relative z-20">
                 <div className='flex flex-col items-center'>
                     <div data-aos="zoom-in"><CommonHeading className="text-white" blackText=" in Raphtory" redText="Analysis" /></div>
-                    <div data-aos="zoom-in"><CommonParagraph className="text-white pt-3 text-center max-w-[1015px]" text="As a key feature of Raphtory’s design goals was to ensure it could scale to the largest of datasets, algorithms had to be fully distributable. To enable this, we adopted the think like a vertex model, where computation is completed in synchronised supersteps. Within these steps all vertices execute independently, communicating via messages, and can therefore be spread across any number of machines." redText="Read more..." /></div>
+                    <div data-aos="zoom-in"><CommonParagraph className="text-white pt-3 text-center max-w-[1015px]" text="As a key feature of Raphtory’s design goals was to ensure it could scale to the largest of datasets, algorithms had to be fully distributable. To enable this, we adopted the think like a vertex model, where computation is completed in synchronised supersteps. Within these steps all vertices execute independently, communicating via messages, and can therefore be spread across any number of machines." redText=" Read more..." /></div>
                     <img rel='preload' loading='lazy' data-aos="zoom-in" className='max-w-[1012px] w-full mt-[52px] pointer- events-none' src={raphtory} alt="raphtory" />
                 </div>
                 <div className='flex max-lg:flex-wrap justify-between pt-12 sm:pt-16 md:pt-20 lg:pt-24 xl:pt-[124px]'>
@@ -31,4 +32,5 @@ const MemoryGraph = () => {
         </div>
     )
 }
+
 export default MemoryGraph

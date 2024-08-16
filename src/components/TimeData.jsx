@@ -2,6 +2,7 @@ import timeData from '../assets/image/webp/time-data.webp'
 import CommonHeading from '../common/CommonHeading'
 import CommonParagraph from '../common/CommonParagraph'
 import Icons from '../common/Icons'
+
 const TimeData = () => {
   return (
     <div className='container lg:py-[152px] md:py-20 sm:py-16 py-14'>
@@ -38,4 +39,5 @@ const TimeData = () => {
     </div>
   )
 }
+
 export default TimeData

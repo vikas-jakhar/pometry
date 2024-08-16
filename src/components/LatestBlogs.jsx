@@ -2,6 +2,7 @@ import CommonHeading from '../common/CommonHeading'
 import Icons from '../common/Icons'
 import { DATA_ANALYTICS } from '../common/Helper'
 import Slider from 'react-slick'
+
 const LatestBlogs = () => {
   var settings2 = {
     dots: true,

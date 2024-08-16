@@ -20,4 +20,5 @@ const Raphtory = () => {
         </div>
     )
 }
+
 export default Raphtory

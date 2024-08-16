@@ -4,8 +4,9 @@ import "slick-carousel/slick/slick.css";
 import newsTwitter from '../assets/image/svg/twitter-logo.svg';
 import CommonHeading from '../common/CommonHeading';
 import { LATEST_NEWS_DATA } from '../common/Helper';
+
 const LatestNews = () => {
-    var settings_do = {
+    var news_slider = {
         dots: true,
         infinite: true,
         slidesToShow: 3,
@@ -58,7 +59,7 @@ const LatestNews = () => {
                         <CommonHeading className="text-black text-center" text="Latest News About" redText=" Raphtory" />
                     </div>
                     <div className='news-slider pt-[32px]' data-aos="zoom-in">
-                        <Slider {...settings_do}>
+                        <Slider {...news_slider}>
                             {LATEST_NEWS_DATA.map((item, index) => (
                                 <div key={index} className='max-w-[372px] rounded-xl w-full min-h-[230px] sm:min-h-[276px] md:min-h-[230px] border border-offWhite duration-300 ease-linear hover:border-transparent hover:shadow-6xl p-[15px] flex bg-white flex-col'>
                                     <div className='flex flex-col justify-between h-full'>
@@ -101,4 +102,5 @@ const LatestNews = () => {
         </div>
     )
 }
+
 export default LatestNews

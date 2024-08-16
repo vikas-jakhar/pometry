@@ -1,6 +1,7 @@
 import CommonParagraph from '../common/CommonParagraph'
 import Icons from '../common/Icons'
 import nativeAnalytics from '../assets/image/webp/native-analytics.webp'
+
 const NativeAnalytics = () => {
     return (
         <div className='container'>

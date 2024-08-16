@@ -3,6 +3,7 @@ import CommonButton from '../common/CommonButton'
 import CommonHeading from '../common/CommonHeading'
 import CommonParagraph from '../common/CommonParagraph'
 import Icons from '../common/Icons'
+
 const Algorithm = () => {
     return (
         <div className='py-14 sm:py-16 md:py-24 lg:py-32 xl:py-[152px] relative mx-auto max-w-[1920px]' id='docs'>
@@ -24,4 +25,5 @@ const Algorithm = () => {
         </div>
     )
 }
+
 export default Algorithm
