@@ -13,25 +13,25 @@ const NativeAnalytics = () => {
                         <CommonParagraph className='max-w-[526px] text-black mt-3' text='Analyse your graph data across time, even while newer data is being ingested. Use any of our 25+ built-in graph ML algorithms or write your own with ease.' />
                         <div className='flex gap-3 mt-3'>
                             <Icons IconName='tickIcon' />
-                            <p className='font-semibold text-base text-black leading-6'>
+                            <p className='font-semibold sm:text-base text-sm text-black leading-6'>
                                 Standard algorithms with global scope
                             </p>
                         </div>
                         <div className='flex gap-3 mt-4'>
                             <Icons IconName='tickIcon' />
-                            <p className='font-semibold text-base text-black leading-6'>
+                            <p className='font-semibold sm:text-base text-sm text-black leading-6'>
                                 Pattern detection and temporal motifs
                             </p>
                         </div>
                         <div className='flex gap-3 mt-4'>
                             <Icons IconName='tickIcon' />
-                            <p className='font-semibold text-base text-black leading-6'>
+                            <p className='font-semibold sm:text-base text-sm text-black leading-6'>
                                 Taint/Contagion tracking
                             </p>
                         </div>
                         <div className='flex gap-3 mt-4'>
                             <Icons IconName='tickIcon' />
-                            <p className='font-semibold text-base text-black leading-6'>
+                            <p className='font-semibold sm:text-base text-sm text-black leading-6'>
                                 Real-time native scoring
                             </p>
                         </div>

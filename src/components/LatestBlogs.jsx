@@ -49,7 +49,7 @@ const LatestBlogs = () => {
     ),
   };
   return (
-    <div className='container pb-[32px]'>
+    <div className='container pb-[32px]' id='blog'>
       <div className='relative'>
         <CommonHeading className='text-center' text='Latest blogs' />
         <Icons className='absolute right-[28%] top-[-35%] lg:flex hidden' IconName='arrowIcon' />

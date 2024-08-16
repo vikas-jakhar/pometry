@@ -8,7 +8,7 @@ import Icons from '../common/Icons';
 
 const Hero = () => {
     return (
-        <div className='xl:pb-24 lg:pb-16 pb-14 relative bg-hero bg-cover bg-no-repeat'>
+        <div className='xl:pb-24 lg:pb-16 pb-14 relative bg-hero bg-cover bg-no-repeat' id='hero'>
             <Header />
             <div className="container pt-5 lg:pt-10">
                 <div className="mt-12 flex flex-col-reverse items-center lg:flex-row">

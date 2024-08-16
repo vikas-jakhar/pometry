@@ -15,7 +15,7 @@ import joy from '../assets/image/webp/joy.webp'
 import ban from '../assets/image/webp/ban.webp'
 import joyBan from '../assets/image/webp/joy-ban.webp';
 export const NAV_ITEMS_DATA = [
-    { text: "Home", url: "/", },
+    { text: "Home", url: "#hero", },
     { text: "Blog", url: "/", },
     { text: "Our Team", url: "/", },
     { text: "Product Overview", url: "/", },

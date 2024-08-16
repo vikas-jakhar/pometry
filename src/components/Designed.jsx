@@ -22,25 +22,25 @@ const Designed = () => {
                         <CommonParagraph className='max-w-[522px] text-black mt-3' text='Built with speed in mind, scaling to millions rows per second. Ingestion turns raw data directly into a temporal graph, complete with all properties.' />
                         <div className='flex gap-3 mt-7'>
                             <Icons IconName='tickIcon' />
-                            <p className='font-semibold text-base text-black leading-6'>
+                            <p className='font-semibold sm:text-base text-sm text-black leading-6'>
                                 Files (CSV, Parquet, etc.)
                             </p>
                         </div>
                         <div className='flex gap-3 mt-4'>
                             <Icons IconName='tickIcon' />
-                            <p className='font-semibold text-base text-black leading-6'>
+                            <p className='font-semibold sm:text-base text-sm text-black leading-6'>
                                 Cloud storage (AWS S3, Azure Blob)
                             </p>
                         </div>
                         <div className='flex gap-3 mt-4'>
                             <Icons IconName='tickIcon' />
-                            <p className='font-semibold text-base text-black leading-6'>
+                            <p className='font-semibold sm:text-base text-sm text-black leading-6'>
                                 Streaming/PubSub Platforms (Kafka, Pulsar)
                             </p>
                         </div>
                         <div className='flex gap-3 mt-4'>
                             <Icons IconName='tickIcon' />
-                            <p className='font-semibold text-base text-black leading-6'>
+                            <p className='font-semibold sm:text-base text-sm text-black leading-6'>
                                 Databases (Postgres, Redis, etc.)
                             </p>
                         </div>

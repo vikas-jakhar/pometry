@@ -15,24 +15,24 @@ const TimeData = () => {
           <CommonParagraph className='max-w-[478px]' text="Temporal analysis allows you to easily focus on causality in data. Identifying what really matters.Our platform has been applied to solutions across multiple sectors. Including" />
           <div className='flex gap-3 mt-8'>
             <Icons IconName='tickIcon' />
-            <p className='font-semibold text-base text-black leading-6'>
+            <p className='font-semibold sm:text-base text-sm text-black leading-6'>
               Crypto and financial fraud
             </p>
           </div>
           <div className='flex gap-3 mt-4'>
             <Icons IconName='tickIcon' />
-            <p className='font-semibold text-base text-black leading-6'>
+            <p className='font-semibold sm:text-base text-sm text-black leading-6'>
               Insurance and root-cause
             </p>
           </div>
           <div className='flex gap-3 mt-4'>
             <Icons IconName='tickIcon' />
-            <p className='font-semibold text-base text-black leading-6'>
+            <p className='font-semibold sm:text-base text-sm text-black leading-6'>
               Social network analysis
             </p>
           </div>
           <div className='md:max-w-[340px] max-w-[280px] w-full h-[171px] bg-darkRed blur-2xl top-[1%] left-[-10%] absolute opacity-[12%] z-[-1]'>
-                </div>
+          </div>
         </div>
       </div>
     </div>
