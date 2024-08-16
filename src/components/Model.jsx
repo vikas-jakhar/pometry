@@ -9,7 +9,7 @@ const Model = () => {
         <div className='bg-offBlack py-10 lg:py-24 relative overflow-hidden'>
             <div className="container my-2 sm:my-[73px] 2xl:relative">
                 <div className="flex lg:flex-row flex-col-reverse items-center gap-11 justify-end">
-                    <div data-aos="fade-right" className="w-full max-w-[564px] relative z-[1] xl:absolute xl:left-[7%] 2xl:-left-[4%]">
+                    <div data-aos="fade-right" className="w-full max-w-[564px] relative z-[1] xl:absolute xl:left-[8%] 2xl:-left-[2%]">
                         <img src={graph} alt="graph" />
                     </div>
                     <div data-aos="fade-left" className="w-full max-w-[574px] z-[1] relative flex flex-col items-center lg:items-start">

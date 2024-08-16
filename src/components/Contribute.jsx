@@ -10,8 +10,8 @@ const Contribute = () => {
         <div className='lg:py-24 md:py-16 sm:py-8 py-1 bg-black relative overflow-hidden'>
             <div className="container my-9 py-0.5">
                 <div data-aos="zoom-in"><CommonHeading className="text-white max-w-[787px] text-center mx-auto" text="If you want to contribute to the " redText="project you can Join" /></div>
-                <div className="sm:mt-16 mt-8 pt-2 flex md:flex-row flex-col justify-between gap-5 items-center">
-                    <div data-aos="zoom-in-right" className="max-w-[537px] w-full px-3">
+                <div className="sm:mt-16 mt-8 pt-2 flex md:flex-row flex-col justify-between gap-5 xl:gap-[61px] xl:justify-center items-center">
+                    <div data-aos="zoom-in-right" className="max-w-[537px] w-full">
                         <img rel='preload' loading='lazy' src={bountyBoard} alt="bountyBoard" className='w-full' />
                     </div>
                     <div data-aos="zoom-in-left" className="flex flex-col items-center md:items-start max-w-[513px] w-full">
@@ -25,7 +25,7 @@ const Contribute = () => {
                         <CommonParagraph className="text-white mt-3 text-center md:text-left" text="Once you know what you want to work on, head over to the Github repo   and give us a clone. The project is straight forward to get running, but everyone on slack is always there to give a hand." />
                         <CommonButton text="Join Now" className="lg:mt-[42px] mt-7 text-white bg-darkRed-gradient border-transparent hover:border-white" hoverClass="bg-black" />
                     </div>
-                    <div data-aos="zoom-in-left" className="max-w-[358px] w-full">
+                    <div data-aos="zoom-in-left" className="max-w-[358px] w-1/2 sm:w-1/3 md:w-1/2 lg:w-full">
                         <img rel='preload' loading='lazy' src={githubRepo} alt="githubRepo" className='w-full' />
                     </div>
                 </div>

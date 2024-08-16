@@ -5,7 +5,7 @@ import linkedin from '../assets/image/svg/linkedin.svg';
 import { FOOTER_DATA } from '../common/Helper';
 
 const Footer = () => {
-    const CurrentYear = new Date().getFullYear();
+    const currentYear = new Date().getFullYear();
 
     const handleClick = (e, id) => {
         e.preventDefault();
@@ -37,7 +37,7 @@ const Footer = () => {
                     </div>
                     <div className='lg:max-w-[710px] w-full flex flex-row flex-wrap sm:justify-between md:gap-[44px] lg:mb-[98px] md:mb-20 sm:mb-16 mb-14'>
                         {FOOTER_DATA.map((item, idx) => (
-                            <div key={idx} className={`${(idx === 4 || idx === 5) ? "hidden sm:flex" : ""} ${(idx === 1 || idx === 2) ? "md:hidden flex" : ""} flex flex-col max-md:w-5/12 max-sm:w-6/12 max-sm:pr-4 max-md:mb-5`}>
+                            <div key={idx} className={`${idx === 1 ? "flex md:hidden" : ""} ${idx === 2 ? "md:flex hidden" : ""} ${idx === 4 ? "md:flex hidden" : ""} ${idx === 5 ? "flex md:hidden" : ""} flex flex-col max-md:w-5/12 max-sm:w-6/12 max-sm:pr-4 max-md:mb-5`}>
                                 <p className='font-semibold text-base text-white leading-6'>
                                     {item.heading}
                                 </p>
@@ -51,7 +51,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <p className='font-normal text-sm text-white leading-5 text-end opacity-70 pb-8'>
-                    Copyright © {CurrentYear} Pometry. All rights reserved.
+                    Copyright © {currentYear} Pometry. All rights reserved.
                 </p>
             </div>
             <div className='md:max-w-[340px] max-w-[280px] w-full h-[171px] bg-darkRed blur-2xl top-[0%] left-[-10%] absolute opacity-[20%]'>

@@ -1,5 +1,3 @@
-import React from 'react'
-
 const CommonButton = (props) => {
   return (
     <button className={`${props.className} py-2.5 hover:shadow-3xl z-[1] overflow-hidden border group duration-300 ease-linear relative rounded px-8 font-semibold text-base`}>{props.text}

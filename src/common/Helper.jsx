@@ -14,6 +14,7 @@ import latestAnalytics from '../assets/image/webp/latest-analytics.webp'
 import joy from '../assets/image/webp/joy.webp'
 import ban from '../assets/image/webp/ban.webp'
 import joyBan from '../assets/image/webp/joy-ban.webp';
+
 export const NAV_ITEMS_DATA = [
     { text: "Home", url: "#hero", },
     { text: "Blog", url: "#blog", },
@@ -28,7 +29,7 @@ export const SOCIAL_ICONS = [
 ];
 export const CARD_DATA = [
     { icon: "redIcon", link: "https://gsap.com/docs/v3/GSAP/CorePlugins/CSS/#quick-reference", heading: "Instance running", text: "Setup, get your first Raphtory instance running and submit your first temporal graph algorithms." },
-    { icon: "slack", link: "https://slack.com/intl/en-in", heading: "Join on slack", text: "Feel free to join the #raphtory-development and #askaway channels to discuss current issues or ask any questions." },
+    { icon: "slackIcon", link: "https://slack.com/intl/en-in", heading: "Join on slack", text: "Feel free to join the #raphtory-development and #askaway channels to discuss current issues or ask any questions." },
     { icon: "redTwitter", link: "https://x.com/i/flow/login", heading: "Give Feedback", text: "Come and say hello to us on Twitter Any and all feedback is welcomed!" },
 ];
 export const LATEST_NEWS_DATA = [

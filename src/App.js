@@ -14,10 +14,12 @@ import NativeAnalytics from "./components/NativeAnalytics";
 import LatestBlogs from "./components/LatestBlogs";
 import RunRaphtory from "./components/RunRaphtory";
 import Footer from "./components/Footer";
+import SeeYou from './components/SeeYou';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
 import { useEffect } from 'react';
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -27,10 +29,12 @@ function App() {
       disable: window.innerWidth < 640,
     });
   }, []);
+
   return (
     <div className="overflow-hidden">
       <Hero />
       <Raphtory />
+      <SeeYou />
       <Model />
       <Analysis />
       <Contribute />
