@@ -5,54 +5,48 @@ import Slider from 'react-slick'
 const LatestBlogs = () => {
   var settings2 = {
     dots: true,
-    arrows: false,
     infinite: true,
-    speed: 2000,
     slidesToShow: 3,
-    slidesToScroll: 3,
-    autoplay: false,
-    autoplaySpeed: 3000,
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 4000,
     responsive: [
       {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 3,
-        }
-      },
-      {
-        breakpoint: 1022,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
         }
       },
       {
-        breakpoint: 860,
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 1,
         }
       },
       {
-        breakpoint: 745,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 630,
+        breakpoint: 640,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1
         }
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 1,
-          centerMode: false,
-          variableWidth: false,
-          centerPadding: "0",
-        }
-      },
+      }
     ],
+    appendDots: dots => (
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        <ul style={{ margin: "0px" }}> {dots} </ul>
+      </div>
+    ),
   };
   return (
     <div className='container pb-[32px]'>
@@ -60,7 +54,7 @@ const LatestBlogs = () => {
         <CommonHeading className='text-center' text='Latest blogs' />
         <Icons className='absolute right-[28%] top-[-35%] lg:flex hidden' IconName='arrowIcon' />
       </div>
-      <div className='customer_slider mt-[68px]'>
+      <div className='news-slider mt-[68px]'>
         <Slider {...settings2}>
           {DATA_ANALYTICS.map((index) => (
             <div key={index} className='bg-white max-w-[366px] w-full rounded-xl p-[15px] border border-lighterWhite'>
