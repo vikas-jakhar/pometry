@@ -14,7 +14,7 @@ const Hero = () => {
                 <div className="mt-12 flex flex-col-reverse items-center lg:flex-row">
                     <div className="lg:w-1/2 w-full flex justify-center items-center">
                         <div className="relative max-w-[338px] w-full mx-8">
-                            <img src={circle} alt="circle" className='w-full' />
+                            <img rel='preload' loading='lazy' src={circle} alt="circle" className='w-full' />
                             <a href="/" className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 sm:w-[143px] w-[100px] h-[100px] sm:h-[143px] shadow-4xl rounded-full grid place-items-center hover:shadow-darkRed duration-300 ease-linear hover:shadow-3xl'>
                                 <img src={timer} alt="timer" className='sm:w-[64px] w-9' />
                             </a>

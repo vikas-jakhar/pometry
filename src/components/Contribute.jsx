@@ -12,7 +12,7 @@ const Contribute = () => {
                 <div data-aos="zoom-in"><CommonHeading className="text-white max-w-[787px] text-center mx-auto" text="If you want to contribute to the " redText="project you can Join" /></div>
                 <div className="sm:mt-16 mt-8 pt-2 flex md:flex-row flex-col justify-between gap-5 items-center">
                     <div data-aos="zoom-in-right" className="max-w-[537px] w-full px-3">
-                        <img src={bountyBoard} alt="bountyBoard" className='w-full' />
+                        <img rel='preload' loading='lazy' src={bountyBoard} alt="bountyBoard" className='w-full' />
                     </div>
                     <div data-aos="zoom-in-left" className="flex flex-col items-center md:items-start max-w-[513px] w-full">
                         <p className='font-semibold text-custom-xl text-white'>Bounty Board</p>
@@ -26,7 +26,7 @@ const Contribute = () => {
                         <CommonButton text="Join Now" className="lg:mt-[42px] mt-7 text-white bg-darkRed-gradient border-none" hoverClass="bg-black" />
                     </div>
                     <div data-aos="zoom-in-left" className="max-w-[358px] w-full">
-                        <img src={githubRepo} alt="githubRepo" className='w-full' />
+                        <img rel='preload' loading='lazy' src={githubRepo} alt="githubRepo" className='w-full' />
                     </div>
                 </div>
             </div>
