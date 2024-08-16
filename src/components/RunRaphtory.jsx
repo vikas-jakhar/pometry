@@ -1,6 +1,7 @@
 import CommonHeading from '../common/CommonHeading'
 import Icons from '../common/Icons'
 import raphtoryEllipse from '../assets/image/webp/raphtory-ellipse.webp'
+
 const RunRaphtory = () => {
   return (
     <div className='container lg:py-[152px] md:py-24 sm:py-16 py-14'>

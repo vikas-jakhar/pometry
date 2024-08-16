@@ -2,6 +2,7 @@ import CommonHeading from '../common/CommonHeading'
 import CommonParagraph from '../common/CommonParagraph'
 import Icons from '../common/Icons'
 import designedImg from '../assets/image/webp/designed-img.webp'
+
 const Designed = () => {
     return (
         <div className='container lg:pt-[152px] md:pt-28 sm:pt-20 pt-14 lg:pb-[75px] md:pb-16 sm:pb-14 pb-12'>

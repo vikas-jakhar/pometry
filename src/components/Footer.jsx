@@ -3,6 +3,7 @@ import slack from '../assets/image/svg/slack.svg'
 import twitter from '../assets/image/svg/twitter.svg'
 import linkedin from '../assets/image/svg/linkedin.svg'
 import { FOOTER_DATA } from '../common/Helper'
+
 const Footer = () => {
     const CurrentYear = new Date().getFullYear();
     return (
@@ -53,4 +54,5 @@ const Footer = () => {
         </div>
     )
 }
+
 export default Footer

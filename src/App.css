@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 * {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -34,22 +35,14 @@
   font-size: 0;
   width: 10px !important;
   height: 10px !important;
+  border-radius: 50% !important;
 }
 
 .news-slider .slick-dots li button {
   font-size: 0;
-  width: 100% !important;
-  height: 100% !important;
-}
-
-.news-slider .slick-dots li {
-  background: white;
-  border-radius: 100px !important;
   width: 10px !important;
   height: 10px !important;
-  margin: 0px 3px !important;
-  transition: all 300ms linear !important;
-  position: relative;
+  border-radius: 50% !important;
 }
 
 .news-slider .slick-dots li::before {
@@ -64,8 +57,18 @@
   z-index: -1;
 }
 
+.news-slider .slick-dots li {
+  background: white;
+  border-radius: 50% !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 3px !important;
+  transition: all 300ms ease-in-out !important;
+  position: relative;
+}
+
 .news-slider .slick-dots li.slick-active {
   background: linear-gradient(96.09deg, #E31930 0%, #F3576E 100%);
-  height: 14px !important;
-  width: 14px !important;
+  transform: scale(1.2);
+  border-radius: 50% !important;
 }

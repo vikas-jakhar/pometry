@@ -5,6 +5,7 @@ import CommonButton from '../common/CommonButton'
 import Icons from '../common/Icons'
 import { CARD_DATA } from '../common/Helper'
 import manJumping from "../assets/image/webp/man-jumping.webp";
+
 const Raphtory = () => {
     return (
         <div className='z-[2] relative py-5 sm:py-10 md:py-24 overflow-hidden max-w-[1920px] mx-auto'>
@@ -39,4 +40,5 @@ const Raphtory = () => {
         </div>
     )
 }
+
 export default Raphtory
