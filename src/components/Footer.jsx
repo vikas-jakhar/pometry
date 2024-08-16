@@ -22,7 +22,7 @@ const Footer = () => {
             <div className='container lg:pt-[100px] md:pt-20 sm:pt-16 pt-14 relative z-10'>
                 <div className='flex w-full lg:flex-row flex-col lg:justify-between'>
                     <div className='max-w-[236px] w-full lg:mb-0 md:mb-10 sm:pb-8 pb-7'>
-                        <img loading="lazy" rel="preload" className="max-w-[236px]" src={logoFooter} alt="Footer Logo" />
+                        <img loading="lazy" rel="preload" className="max-w-[236px] pointer-events-none" src={logoFooter} alt="Footer Logo" />
                         <div className='flex gap-3 mt-4'>
                             <a href="https://slack.com/intl/en-in" aria-label="slack" target='blank' className='hover:scale-110 duration-300'>
                                 <img src={slack} alt="Slack Logo" />

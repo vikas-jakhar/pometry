@@ -4,7 +4,7 @@ import { DATA_ANALYTICS } from '../common/Helper'
 import Slider from 'react-slick'
 
 const LatestBlogs = () => {
-  var settings2 = {
+  var latest_blog_slider = {
     dots: true,
     infinite: true,
     slidesToShow: 3,
@@ -49,14 +49,15 @@ const LatestBlogs = () => {
       </div>
     ),
   };
+
   return (
-    <div className='container pb-[32px]' id='blog'>
+    <div className='container sm:pb-[32px]' id='blog'>
       <div className='relative'>
         <CommonHeading className='text-center' text='Latest blogs' />
         <Icons className='absolute right-[28%] top-[-35%] lg:flex hidden' IconName='arrowIcon' />
       </div>
-      <div className='news-slider mt-[68px]' data-aos="zoom-in">
-        <Slider {...settings2}>
+      <div className='news-slider lg:mt-[22px] md:mt-3' data-aos="zoom-in">
+        <Slider {...latest_blog_slider}>
           {DATA_ANALYTICS.map((index) => (
             <div key={index} className='bg-white max-w-[366px] w-full rounded-xl p-[15px] border border-lighterWhite'>
               <img src={index.img} alt="#" className='max-w-[334px] w-full' />

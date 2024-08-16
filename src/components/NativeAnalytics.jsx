@@ -8,7 +8,7 @@ const NativeAnalytics = () => {
             <div className='flex lg:flex-row flex-col justify-between items-center'>
                 <div className='max-w-[526px] relative w-full flex flex-col lg:order-1 order-2'>
                     <div className='flex flex-col' data-aos="fade-up-right">
-                        <p className='font-semibold text-custom-xl text-black leading-[41px]'>
+                        <p className='font-semibold text-custom-xl text-black max-lg:text-center leading-[41px]'>
                             Native analytics
                         </p>
                         <CommonParagraph className='max-w-[526px] text-black mt-3' text='Analyse your graph data across time, even while newer data is being ingested. Use any of our 25+ built-in graph ML algorithms or write your own with ease.' />
@@ -41,7 +41,7 @@ const NativeAnalytics = () => {
                     </div>
                 </div>
                 <div className='max-w-[556px] relative flex max-lg:justify-center max-lg:mb-7 w-full lg:order-2 order-1'>
-                    <img loading='lazy' rel='preload' data-aos="fade-up-left" className='lg:max-w-[556px] md:max-w-[480px] sm:max-w-[440px] max-w-[380px] w-full' src={nativeAnalytics} alt="#" />
+                    <img loading='lazy' rel='preload' data-aos="fade-up-left" className='lg:max-w-[556px] pointer-events-none md:max-w-[480px] sm:max-w-[440px] max-w-[380px] w-full' src={nativeAnalytics} alt="#" />
                     <div className='md:max-w-[340px] max-w-[280px] w-full h-[171px] bg-darkRed blur-2xl top-[1%] left-[50%] absolute opacity-[12%] z-[-1]'>
                     </div>
                 </div>
