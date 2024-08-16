@@ -32,7 +32,7 @@ const Raphtory = () => {
                     </div>
                 </div>
             </div>
-            <img src={manJumping} alt="manJumping" className='max-w-[663px] w-full hidden sm:flex max-h-[511px] h-full right-0 xl:top-[152px] top-24 absolute opacity-50 xl:opacity-100' />
+            <img loading='lazy' rel='preload' src={manJumping} alt="manJumping" className='max-w-[663px] w-full hidden sm:flex max-h-[511px] h-full right-0 xl:top-[152px] top-24 absolute opacity-50 xl:opacity-100' />
             <span className='hidden md:flex w-[423px] h-[171px] bg-darkRed-gradient opacity-15 absolute top-[11%] -left-[7%] blur-3xl rounded-full'></span>
             <span className='hidden md:flex w-[423px] h-[171px] bg-darkRed-gradient opacity-15 absolute top-[59%] left-[2%] blur-3xl rounded-full'></span>
             <span className='hidden md:flex w-[423px] h-[171px] bg-darkRed-gradient opacity-15 absolute -right-[5%] bottom-[42px] blur-3xl rounded-full'></span>

@@ -12,7 +12,7 @@ const Designed = () => {
             </div>
             <div className='flex lg:flex-row flex-col items-center lg:justify-between relative'>
                 <div data-aos="fade-up-right" className='max-w-[467px] w-full flex justify-center'>
-                    <img className='w-full max-w-[467px]' src={designedImg} alt="#" />
+                    <img rel='preload' loading='lazy' className='w-full ' src={designedImg} alt="#" />
                 </div>
                 <div data-aos="fade-up-left" className='max-w-[522px] w-full max-lg:items-center flex flex-col md:mt-10 sm:mt-6 mt-4'>
                     <div className='flex flex-col'>

@@ -10,11 +10,11 @@ const MemoryGraph = () => {
                 <div className='flex flex-col items-center'>
                     <div data-aos="zoom-in"><CommonHeading className="text-white" blackText=" in Raphtory" redText="Analysis" /></div>
                     <div data-aos="zoom-in"><CommonParagraph className="text-white pt-3 text-center max-w-[1015px]" text="As a key feature of Raphtory’s design goals was to ensure it could scale to the largest of datasets, algorithms had to be fully distributable. To enable this, we adopted the think like a vertex model, where computation is completed in synchronised supersteps. Within these steps all vertices execute independently, communicating via messages, and can therefore be spread across any number of machines." redText="Read more..." /></div>
-                    <img data-aos="zoom-in" className='max-w-[1012px] w-full mt-[52px] pointer- events-none' src={raphtory} alt="raphtory" />
+                    <img rel='preload' loading='lazy' data-aos="zoom-in" className='max-w-[1012px] w-full mt-[52px] pointer- events-none' src={raphtory} alt="raphtory" />
                 </div>
                 <div className='flex max-lg:flex-wrap justify-between pt-12 sm:pt-16 md:pt-20 lg:pt-24 xl:pt-[124px]'>
                     <div data-aos="fade-right" className='lg:max-w-[330px] w-full flex justify-center lg:justify-end lg:pt-[46px] relative z-20'>
-                        <img className='max-w-[150px] md:max-w-[185px] lg:max-w-[205px] lg:h-[292px] w-full pointer-events-none' src={raphtoryTimer} alt="timer" />
+                        <img rel='preload' loading='lazy' className='max-w-[150px] md:max-w-[185px] lg:max-w-[205px] lg:h-[292px] w-full pointer-events-none' src={raphtoryTimer} alt="timer" />
                         <div className='max-w-[423px] w-full min-h-[50px] absolute inset-0 bg-darkRed-gradient -z-10 left-[15%] lg:left-[30%] lg:top-[20%] blur-[120px] opacity-40 pointer-events-none'></div>
                     </div>
                     <div data-aos="fade-left" className='flex max-md:pt-10 md:pt-12 lg:pt-0 max-lg:items-center max-lg:w-full flex-col'>

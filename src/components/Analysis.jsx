@@ -18,7 +18,7 @@ const Analysis = () => {
                         <CommonButton text="Read more" className="border-darkRed text-darkRed mt-7 sm:mt-[42px] hover:text-white hover:border-transparent hover:shadow-darkRed" hoverClass="bg-darkRed-gradient" />
                     </div>
                     <div data-aos="fade-up-left" className="max-w-[523px] xl:w-full">
-                        <img src={analysis} alt="analysis" className='w-full' />
+                        <img rel='preload' loading='lazy' src={analysis} alt="analysis" className='w-full' />
                     </div>
                 </div>
             </div>
