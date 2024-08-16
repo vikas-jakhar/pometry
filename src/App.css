@@ -69,6 +69,6 @@
 
 .news-slider .slick-dots li.slick-active {
   background: linear-gradient(96.09deg, #E31930 0%, #F3576E 100%);
-  height: 14px !important;
-  width: 14px !important;
+  transform: scale(1.2);
+  border-radius: 50% !important;
 }
