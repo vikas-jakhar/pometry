@@ -4,7 +4,7 @@ import Icons from '../common/Icons'
 import designedImg from '../assets/image/webp/designed-img.webp'
 const Designed = () => {
     return (
-        <div className='container lg:pt-[152px] md:pt-28 sm:pt-20 pt-14 lg:pb-[75px] md:pb-16 sm:pb-14 pb-12'>
+        <div className='container lg:pt-[152px] md:pt-28 sm:pt-20 pt-14 lg:pb-[75px] md:pb-16 sm:pb-14 pb-12' id='product'>
             <div data-aos="zoom-in" className='flex flex-col items-center relative'>
                 <CommonHeading className='capitalize text-center' text='designed to go anywhere' />
                 <CommonParagraph className='text-black max-w-[568px] pt-3 text-center' text='Our platform is designed to make ingestion and analysis simple, with no need to move or transform data. We make ingesting and analysing your data sets easy!' />

@@ -16,9 +16,9 @@ import ban from '../assets/image/webp/ban.webp'
 import joyBan from '../assets/image/webp/joy-ban.webp';
 export const NAV_ITEMS_DATA = [
     { text: "Home", url: "#hero", },
-    { text: "Blog", url: "/", },
-    { text: "Our Team", url: "/", },
-    { text: "Product Overview", url: "/", },
+    { text: "Blog", url: "#blog", },
+    { text: "Our Team", url: "#team", },
+    { text: "Product Overview", url: "#product", },
 ];
 export const SOCIAL_ICONS = [
     { icon: gitHub, link: "https://github.com/", position: "top-0 left-1/2 -translate-x-1/2 -translate-y-1/2" },
@@ -139,50 +139,50 @@ export const DATA_ANALYTICS = [
 export const FOOTER_DATA = [
     {
         heading: "Company", items: [
-            { text: "Product" },
-            { text: "About" },
-            { text: "Contact" },
+            { text: "Product", link: "#raphtory" },
+            { text: "About", link: "#team" },
+            { text: "Contact", link: "#footer" },
         ]
     },
     {
         heading: "Resources", items: [
-            { text: "Docs" },
-            { text: "Blog" },
-            { text: "Community" },
+            { text: "Docs", link: "/" },
+            { text: "Blog", link: "/" },
+            { text: "Community", link: "/" },
         ]
     },
     {
         heading: "Platform", items: [
-            { text: "Graph QL" },
-            { text: "Data Consolidation" },
-            { text: "JupyterNotebook Support" },
-            { text: "Custom Analytics" },
-            { text: "Data Visualisation" },
+            { text: "Graph QL", link: "/" },
+            { text: "Data Consolidation", link: "/" },
+            { text: "JupyterNotebook Support", link: "/" },
+            { text: "Custom Analytics", link: "/" },
+            { text: "Data Visualisation", link: "/" },
         ]
     },
     {
         heading: "Use cases", items: [
-            { text: "Company Shell Detection" },
-            { text: "Cyber Security" },
-            { text: "Covid Relief Schemes Fraud" },
-            { text: "NFT Wash Trading" },
-            { text: "DEFI Sybil Detection" },
+            { text: "Company Shell Detection", link: "/" },
+            { text: "Cyber Security", link: "/" },
+            { text: "Covid Relief Schemes Fraud", link: "/" },
+            { text: "NFT Wash Trading", link: "/" },
+            { text: "DEFI Sybil Detection", link: "/" },
         ]
     },
     {
         heading: "Resources", items: [
-            { text: "Docs" },
-            { text: "Blog" },
-            { text: "Community" },
+            { text: "Docs", link: "#docs" },
+            { text: "Blog", link: "#blog" },
+            { text: "Community", link: "#community" },
         ]
     },
     {
         heading: "Platform", items: [
-            { text: "Graph QL" },
-            { text: "Data Consolidation" },
-            { text: "JupyterNotebook Support" },
-            { text: "Custom Analytics" },
-            { text: "Data Visualisation" },
+            { text: "Graph QL", link: "/" },
+            { text: "Data Consolidation", link: "/" },
+            { text: "JupyterNotebook Support", link: "/" },
+            { text: "Custom Analytics", link: "/" },
+            { text: "Data Visualisation", link: "/" },
         ]
     },
 ];

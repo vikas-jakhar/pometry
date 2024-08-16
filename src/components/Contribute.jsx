@@ -23,7 +23,7 @@ const Contribute = () => {
                     <div data-aos="zoom-in-right" className="max-w-[538px] w-full flex flex-col items-center md:items-start">
                         <p className='text-white text-custom-xl font-semibold'>Github Repo</p>
                         <CommonParagraph className="text-white mt-3 text-center md:text-left" text="Once you know what you want to work on, head over to the Github repo   and give us a clone. The project is straight forward to get running, but everyone on slack is always there to give a hand." />
-                        <CommonButton text="Join Now" className="lg:mt-[42px] mt-7 text-white bg-darkRed-gradient border-none" hoverClass="bg-black" />
+                        <CommonButton text="Join Now" className="lg:mt-[42px] mt-7 text-white bg-darkRed-gradient border-transparent hover:border-white" hoverClass="bg-black" />
                     </div>
                     <div data-aos="zoom-in-left" className="max-w-[358px] w-full">
                         <img rel='preload' loading='lazy' src={githubRepo} alt="githubRepo" className='w-full' />

@@ -7,9 +7,9 @@ const NativeAnalytics = () => {
             <div className='flex lg:flex-row flex-col justify-between items-center'>
                 <div className='max-w-[526px] relative w-full flex flex-col lg:order-1 order-2'>
                     <div className='flex flex-col' data-aos="fade-up-right">
-                        <h4 className='font-semibold text-custom-xl text-black leading-[41px]'>
+                        <p className='font-semibold text-custom-xl text-black leading-[41px]'>
                             Native analytics
-                        </h4>
+                        </p>
                         <CommonParagraph className='max-w-[526px] text-black mt-3' text='Analyse your graph data across time, even while newer data is being ingested. Use any of our 25+ built-in graph ML algorithms or write your own with ease.' />
                         <div className='flex gap-3 mt-3'>
                             <Icons IconName='tickIcon' />

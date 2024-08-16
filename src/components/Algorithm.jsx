@@ -5,7 +5,7 @@ import CommonParagraph from '../common/CommonParagraph'
 import Icons from '../common/Icons'
 const Algorithm = () => {
     return (
-        <div className='py-14 sm:py-16 md:py-24 lg:py-32 xl:py-[152px] relative'>
+        <div className='py-14 sm:py-16 md:py-24 lg:py-32 xl:py-[152px] relative mx-auto max-w-[1920px]' id='docs'>
             <div className='container relative z-20'>
                 <div className='flex max-lg:flex-wrap max-lg:justify-center items-center justify-between'>
                     <img loading='lazy' rel='preload' data-aos="fade-right" className='max-w-[535px] w-full pointer-events-none' src={algorithm} alt="algorithm-structure" />

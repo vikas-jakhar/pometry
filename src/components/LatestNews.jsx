@@ -51,7 +51,7 @@ const LatestNews = () => {
         ),
     };
     return (
-        <div className='pt-14 sm:pt-20 md:pt-24 lg:pt-32 xl:pt-[152px] pb-11 relative'>
+        <div className='pt-14 sm:pt-20 md:pt-24 lg:pt-32 xl:pt-[152px] pb-11 relative max-w-[1920px] mx-auto' id="team">
             <div className='container relative z-20'>
                 <div className='flex flex-col'>
                     <div data-aos="zoom-in">
