@@ -15,11 +15,11 @@ const Raphtory = () => {
                     <CommonParagraph className="mt-2 text-center lg:text-left max-w-[609px]" text="Current solutions focus solely on the latest version of the data - missing out on how it has arrived at the state it is in today." />
                     <CommonButton text="Read more" className="border-darkRed text-darkRed mt-7 sm:mt-[42px] hover:text-white hover:border-transparent hover:shadow-darkRed" hoverClass="bg-darkRed-gradient" />
                 </div>
-                <div className="xl:pt-20 pt-10 mt-2.5">
+                <div className="xl:pt-20 pt-10 mt-2.5 flex flex-col justify-center">
                     <div data-aos="zoom-in"><CommonHeading text="If you like " redText="what you see " blackText="you should" className="text-center" /></div>
-                    <div className="mt-12 pt-1 max-w-[796px] w-full mx-auto flex-wrap md:flex-nowrap justify-center flex flex-row gap-6">
+                    <div className="md:mt-12 pt-1 md:max-w-[796px] md:w-full md:mx-auto flex-wrap md:flex-nowrap justify-center flex flex-row md:gap-6 -mx-3">
                         {CARD_DATA.map((items, index) => (
-                            <div data-aos="flip-down" key={index} className="relative w-full max-w-[250px] duration-300 ease-linear min-h-[277px] hover:bg-darkRed-gradient rounded-lg pb-0.5 hover:shadow-5xl">
+                            <div data-aos="flip-down" key={index} className="relative mt-6 md:mt-0 md:w-full px-3 md:px-0 w-full  sm:w-1/2 md:max-w-[250px] duration-300 ease-linear min-h-[277px] hover:bg-darkRed-gradient rounded-lg pb-0.5 hover:shadow-5xl">
                                 <div className="relative z-[1] bg-white px-2 flex flex-col items-center w-full border border-lightGray rounded-lg pt-6 min-h-[277px] h-full duration-300 ease-linear hover:border-white">
                                     <a href={items.link} aria-label={`${items.icon} icon`} rel="noreferrer" target='_blank' className="cursor-pointer w-[52px] h-[52px] grid place-items-center rounded-md bg-lightRed-gradient">
                                         <Icons IconName={items.icon} />
