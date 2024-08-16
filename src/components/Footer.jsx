@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='container lg:pt-[100px] md:pt-20 sm:pt-16 pt-14 relative z-10'>
                 <div className='flex w-full lg:flex-row flex-col lg:justify-between'>
                     <div className='max-w-[236px] w-full lg:mb-0 md:mb-10 sm:pb-8 pb-7'>
-                        <img src={logoFooter} alt="#" />
+                        <img loading="lazy" rel="preload" className="max-w-[236px]" src={logoFooter} alt="#" />
                         <div className='flex gap-3 mt-4'>
                             <a href="https://slack.com/intl/en-in" target='blank' className='hover:scale-110 duration-300'>
                                 <img src={slack} alt="#" />
@@ -22,7 +22,6 @@ const Footer = () => {
                                 <img src={twitter} alt="#" />
                             </a>
                         </div>
-
                     </div>
                     <div className='lg:max-w-[710px] w-full flex flex-row flex-wrap sm:justify-between md:gap-[44px] lg:mb-[98px] md:mb-20 sm:mb-16 mb-14'>
                         {FOOTER_DATA.map((item, idx) => (
@@ -54,5 +53,4 @@ const Footer = () => {
         </div>
     )
 }
-
 export default Footer
