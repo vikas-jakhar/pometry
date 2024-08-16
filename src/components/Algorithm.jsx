@@ -5,11 +5,11 @@ import CommonParagraph from '../common/CommonParagraph'
 import Icons from '../common/Icons'
 const Algorithm = () => {
     return (
-        <div className='py-14 sm:py-16 md:py-24 lg:py-32 xl:py-[152px] relative'>
+        <div className='py-14 sm:py-16 md:py-24 lg:py-32 xl:py-[152px] relative mx-auto max-w-[1920px]' id='docs'>
             <div className='container relative z-20'>
                 <div className='flex max-lg:flex-wrap max-lg:justify-center items-center justify-between'>
-                    <img className='max-w-[535px] w-full pointer-events-none' src={algorithm} alt="slgorith-structure" />
-                    <div className='flex flex-col ps-6 max-lg:ps-0 xl:ps-0 max-lg:pt-12'>
+                    <img loading='lazy' rel='preload' data-aos="fade-right" className='max-w-[535px] w-full pointer-events-none' src={algorithm} alt="algorithm-structure" />
+                    <div data-aos="fade-left" className='flex flex-col ps-6 max-lg:ps-0 xl:ps-0 max-lg:pt-12'>
                         <div className='relative'>
                             <CommonHeading className="max-lg:text-center text-black" text="Algorithm Structure" />
                             <Icons className="absolute max-sm:w-[60px] -top-12 right-0 sm:-right-8 sm:-top-9" IconName="algorithmIcon" />

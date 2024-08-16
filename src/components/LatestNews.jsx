@@ -51,18 +51,20 @@ const LatestNews = () => {
         ),
     };
     return (
-        <div className='pt-14 sm:pt-20 md:pt-24 lg:pt-32 xl:pt-[152px] pb-11 relative'>
+        <div className='pt-14 sm:pt-20 md:pt-24 lg:pt-32 xl:pt-[152px] pb-11 relative max-w-[1920px] mx-auto' id="team">
             <div className='container relative z-20'>
                 <div className='flex flex-col'>
-                    <CommonHeading className="text-black text-center" text="Latest News About" redText=" Raphtory" />
-                    <div className='news-slider pt-[32px]'>
+                    <div data-aos="zoom-in">
+                        <CommonHeading className="text-black text-center" text="Latest News About" redText=" Raphtory" />
+                    </div>
+                    <div className='news-slider pt-[32px]' data-aos="zoom-in">
                         <Slider {...settings_do}>
                             {LATEST_NEWS_DATA.map((item, index) => (
                                 <div key={index} className='max-w-[372px] rounded-xl w-full min-h-[230px] sm:min-h-[276px] md:min-h-[230px] border border-offWhite duration-300 ease-linear hover:border-transparent hover:shadow-6xl p-[15px] flex bg-white flex-col'>
                                     <div className='flex flex-col justify-between h-full'>
                                         <div>
                                             <div className='flex justify-between'>
-                                                <div className='flex flex-col'>
+                                                <div className='flex flex-col' aria-hidden="true">
                                                     <h5 className='font-semibold text-base leading-6 text-offBlack'>Tweets from @raphtory</h5>
                                                     <div className='flex items-center gap-[6px] pt-[5px]'>
                                                         <img width="42px" height="42px" src={item.profile} alt="richard" />
@@ -74,7 +76,7 @@ const LatestNews = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <a className='inline-flex' href="https://x.com/?lang=en" rel="noreferrer" target='_blank'><img width="32px" height="30.49px" src={newsTwitter} alt="twitter-logo" /></a>
+                                                <a className='inline-flex' aria-hidden="true" href="https://x.com/?lang=en" rel="noreferrer" target='_blank'><img width="32px" height="30.49px" src={newsTwitter} alt="twitter-logo" /></a>
                                             </div>
                                             <p className='text-base font-normal leading-6 text-offBlack opacity-80 pt-[13px]'> {item.paragrapgh} {item.link} {item.paraSecond}</p>
                                         </div>

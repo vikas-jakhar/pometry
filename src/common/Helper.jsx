@@ -15,21 +15,21 @@ import joy from '../assets/image/webp/joy.webp'
 import ban from '../assets/image/webp/ban.webp'
 import joyBan from '../assets/image/webp/joy-ban.webp';
 export const NAV_ITEMS_DATA = [
-    { text: "Home", url: "/", },
-    { text: "Blog", url: "/", },
-    { text: "Our Team", url: "/", },
-    { text: "Product Overview", url: "/", },
+    { text: "Home", url: "#hero", },
+    { text: "Blog", url: "#blog", },
+    { text: "Our Team", url: "#team", },
+    { text: "Product Overview", url: "#product", },
 ];
 export const SOCIAL_ICONS = [
-    { icon: gitHub, link: "", position: "top-0 left-1/2 -translate-x-1/2 -translate-y-1/2" },
-    { icon: slack, link: "", position: "top-1/2 right-0 translate-x-1/2 -translate-y-1/2" },
-    { icon: twitter, link: "", position: "bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2" },
-    { icon: pometryIcon, link: "", position: "top-1/2 left-0 -translate-x-1/2 -translate-y-1/2" },
+    { icon: gitHub, link: "https://github.com/", position: "top-0 left-1/2 -translate-x-1/2 -translate-y-1/2" },
+    { icon: slack, link: "https://slack.com/intl/en-in", position: "top-1/2 right-0 translate-x-1/2 -translate-y-1/2" },
+    { icon: twitter, link: "https://x.com/i/flow/login", position: "bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2" },
+    { icon: pometryIcon, link: "https://www.pometry.com/", position: "top-1/2 left-0 -translate-x-1/2 -translate-y-1/2" },
 ];
 export const CARD_DATA = [
-    { icon: "redIcon", link: "", heading: "Instance running", text: "Setup, get your first Raphtory instance running and submit your first temporal graph algorithms." },
-    { icon: "slack", link: "", heading: "Join on slack", text: "Feel free to join the #raphtory-development and #askaway channels to discuss current issues or ask any questions." },
-    { icon: "redTwitter", link: "", heading: "Give Feedback", text: "Come and say hello to us on Twitter Any and all feedback is welcomed!" },
+    { icon: "redIcon", link: "https://gsap.com/docs/v3/GSAP/CorePlugins/CSS/#quick-reference", heading: "Instance running", text: "Setup, get your first Raphtory instance running and submit your first temporal graph algorithms." },
+    { icon: "slack", link: "https://slack.com/intl/en-in", heading: "Join on slack", text: "Feel free to join the #raphtory-development and #askaway channels to discuss current issues or ask any questions." },
+    { icon: "redTwitter", link: "https://x.com/i/flow/login", heading: "Give Feedback", text: "Come and say hello to us on Twitter Any and all feedback is welcomed!" },
 ];
 export const LATEST_NEWS_DATA = [
     {
@@ -43,7 +43,7 @@ export const LATEST_NEWS_DATA = [
         heart: heartIcon,
         info: infoIcon,
         number: 17.,
-        link: <a className='text-lightBlue' rel="noreferrer" href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
+        link: <a className='text-lightBlue' aria-hidden="true" rel="noreferrer" href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
     },
     {
         profile: naomiProfile,
@@ -67,7 +67,7 @@ export const LATEST_NEWS_DATA = [
         heart: heartIcon,
         info: infoIcon,
         number: 19,
-        link: <a className='text-lightBlue' rel="noreferrer" href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
+        link: <a className='text-lightBlue' aria-hidden="true" rel="noreferrer" href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
     },
     {
         profile: naomiProfile,
@@ -91,7 +91,7 @@ export const LATEST_NEWS_DATA = [
         heart: heartIcon,
         info: infoIcon,
         number: 19,
-        link: <a className='text-lightBlue' rel="noreferrer" href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
+        link: <a className='text-lightBlue' aria-hidden="true" rel="noreferrer" href="https://x.com/?lang=en" target='_blank'>@WiNS_Society</a>,
     },
 ];
 export const DATA_ANALYTICS = [
@@ -139,34 +139,50 @@ export const DATA_ANALYTICS = [
 export const FOOTER_DATA = [
     {
         heading: "Company", items: [
-            { text: "Product" },
-            { text: "About" },
-            { text: "Contact" },
-        ]
-    },
-    {
-        heading: "Platform", items: [
-            { text: "Graph QL" },
-            { text: "Data Consolidation" },
-            { text: "JupyterNotebook Support" },
-            { text: "Custom Analytics" },
-            { text: "Data Visualisation" },
-        ]
-    },
-    {
-        heading: "Use cases", items: [
-            { text: "Company Shell Detection" },
-            { text: "Cyber Security" },
-            { text: "Covid Relief Schemes Fraud" },
-            { text: "NFT Wash Trading" },
-            { text: "DEFI Sybil Detection" },
+            { text: "Product", link: "#raphtory" },
+            { text: "About", link: "#team" },
+            { text: "Contact", link: "#footer" },
         ]
     },
     {
         heading: "Resources", items: [
-            { text: "Docs" },
-            { text: "Blog" },
-            { text: "Community" },
+            { text: "Docs", link: "/" },
+            { text: "Blog", link: "/" },
+            { text: "Community", link: "/" },
+        ]
+    },
+    {
+        heading: "Platform", items: [
+            { text: "Graph QL", link: "/" },
+            { text: "Data Consolidation", link: "/" },
+            { text: "JupyterNotebook Support", link: "/" },
+            { text: "Custom Analytics", link: "/" },
+            { text: "Data Visualisation", link: "/" },
+        ]
+    },
+    {
+        heading: "Use cases", items: [
+            { text: "Company Shell Detection", link: "/" },
+            { text: "Cyber Security", link: "/" },
+            { text: "Covid Relief Schemes Fraud", link: "/" },
+            { text: "NFT Wash Trading", link: "/" },
+            { text: "DEFI Sybil Detection", link: "/" },
+        ]
+    },
+    {
+        heading: "Resources", items: [
+            { text: "Docs", link: "#docs" },
+            { text: "Blog", link: "#blog" },
+            { text: "Community", link: "#community" },
+        ]
+    },
+    {
+        heading: "Platform", items: [
+            { text: "Graph QL", link: "/" },
+            { text: "Data Consolidation", link: "/" },
+            { text: "JupyterNotebook Support", link: "/" },
+            { text: "Custom Analytics", link: "/" },
+            { text: "Data Visualisation", link: "/" },
         ]
     },
 ];
